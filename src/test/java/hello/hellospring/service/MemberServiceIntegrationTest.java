@@ -15,7 +15,8 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 // 통합 테스트
 @SpringBootTest
-@Transactional // 테스트가 끝난 뒤 롤백을 해준다.
+@Transactional
+        // 테스트가 끝난 뒤 롤백을 해준다.
 class MemberServiceIntegrationTest {
 
     @Autowired
